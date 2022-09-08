@@ -1,0 +1,11 @@
+.navar-side{
+  position: absolute;
+  z-index: 4;
+  top: 75px;
+  right: 1rem;
+  background-color: rgba(195, 191, 191, 0.319);
+  border-radius: 10px;
+  border: 2px solid rgba(195, 194, 194, 0.83);
+  width: 20rem;
+  height: 85%;
+}

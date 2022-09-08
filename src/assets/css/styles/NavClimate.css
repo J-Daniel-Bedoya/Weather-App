@@ -1,0 +1,70 @@
+.nav{
+  width: 100%;
+  height: 3rem;
+  position: absolute;
+  z-index: 4;
+  background-color: rgb(52, 103, 234);
+  color: #000;
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  box-shadow: 0 1px 20px rgb(190, 189, 189);
+}
+.icon{
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  border-radius: 100%;
+}
+.search{
+  position: relative;
+  left: 50%;
+}
+.note{
+  position: relative;
+  left: 12rem;
+  font-size: 12px;
+}
+
+#countrySearch{
+  height: 34px;
+  padding: 0 20px;
+  background-color: rgba(28, 33, 109, 0.567);
+  border-radius: 80px;
+  border: .6px solid rgb(184, 182, 182);
+  outline: none;
+  color: rgb(0, 0, 0);
+}
+#countrySearch:hover{
+  background-color: rgb(34, 40, 163);
+}
+#countrySearch:focus{
+  border: 1px solid rgb(108, 108, 111);
+  background-color: rgb(223, 220, 220);
+  color: #000;
+}
+.btn-search{
+  margin-left: 5px;
+  width: 74px;
+  height: 34px;
+  cursor: pointer;
+  background-color: rgb(30, 34, 61);
+  color: #fff;
+  border-radius: 100px;
+  transition: .6s;
+  border: .6px solid rgb(178, 174, 174);
+}
+.btn-search:hover{
+  background-color: #fff;
+  color: #000;
+}
+.fa-magnifying-glass{
+  color: gray;
+}
+.fa-magnifying-glass:hover{
+  color: #000;
+}
+.label{
+  font-size: 19px;
+  font-weight: bold;
+}

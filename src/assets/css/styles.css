@@ -1,0 +1,20 @@
+@import url('./styles/AppClimate.css');
+@import url('./styles/CardClimate.css');
+@import url('./styles/ChangingScreen.css');
+@import url('./styles/ClimateBackground.css');
+@import url('./styles/NavarSide.css');
+@import url('./styles/NavClimate.css');
+@import url('./styles/Clock.css');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-size: 1rem;
+  line-height: normal;
+  overflow-x: hidden;
+  font-family: 'Quicksand', sans-serif;
+}

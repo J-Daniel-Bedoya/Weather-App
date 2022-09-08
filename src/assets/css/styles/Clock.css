@@ -1,0 +1,9 @@
+
+.Clock{
+  z-index: 4;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: 13rem;
+  right: 16px;
+  text-align: end;
+}
